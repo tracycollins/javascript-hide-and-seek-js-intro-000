@@ -1,3 +1,4 @@
 function getFirstSelector(selector){
-  var elm = document.querySelector(selector)
+  var elem = document.querySelector(selector)
+  return elem
 }
