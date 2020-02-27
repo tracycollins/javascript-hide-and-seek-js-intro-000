@@ -1,7 +1,8 @@
 function getFirstSelector(selector){
   console.log(selector)
-  console.log(document.getElementById('app').querySelector(selector))
-  return document.getElementById('app').querySelector(selector)
+  console.log(document.querySelector(selector))
+  const elem = document.querySelector(selector)
+  return elem
 }
 
 function nestedTarget(){
