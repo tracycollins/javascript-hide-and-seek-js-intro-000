@@ -7,6 +7,7 @@ function getFirstSelector(selector){
 
 function nestedTarget(){
   var elem = document.getElementById('#nested .target')
+  return elem
 }
 
 function deepestChild() {
