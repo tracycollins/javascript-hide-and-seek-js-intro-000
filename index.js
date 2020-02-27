@@ -3,3 +3,7 @@ function getFirstSelector(selector){
   console.log(document.querySelector(selector))
   return document.querySelector(selector)
 }
+
+function nestedTarget(){
+  
+}
