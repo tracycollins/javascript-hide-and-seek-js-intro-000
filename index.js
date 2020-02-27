@@ -1,3 +1,3 @@
-function getFirstSelector(selector)() {
+function getFirstSelector(selector){
   var elm = document.querySelector(selector)
 }
