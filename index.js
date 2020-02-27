@@ -1,4 +1,4 @@
 function getFirstSelector(selector){
-  var elem = document.querySelector(selector)
+  var elem = window.querySelector(selector)
   return elem
 }
